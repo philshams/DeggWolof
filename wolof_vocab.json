@@ -1,0 +1,1271 @@
+{
+  "vocabulary": [
+    {
+      "wolof": "Semaine bu nekk, damay jang ak jangalekatu wolof",
+      "english": "I have a lesson each week with a Wolof teacher",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Maangi tane ci wolof tuuti-tuuti / ndank-ndank",
+      "english": "I'm gradually getting better at Wolof",
+      "level": "intermediate",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Sama wolof, mu ngi tane",
+      "english": "My wolof is getting better",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Economie bi tane na",
+      "english": "The economy has improved",
+      "level": "intermediate",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Degg naa li nga wax wante am naa (ay) jafe-jafe tontu ci wolof",
+      "english": "I understand what you're saying but I have difficulty responding in wolof",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Jot naa dem Senegal ñetti yoon",
+      "english": "I have had the chance to visit Senegal three times",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bii mooy sama ñenteel yoon di ñow Senegal",
+      "english": "This is my fourth time visiting Senegal",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Maa ngi doora / soga mos mbaxal",
+      "english": "This is my first time tasting mbaxal ('I'm starting to taste mbaxal')",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bi ma njekee dem Senegal, amagumawoon jabar",
+      "english": "The first time I went to Senegal, I wasn't married yet",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "ñungiwoon Cote D'Ivoire semaine bi paase ngir takku mohamed",
+      "english": "We were in Cote D'Ivoire last week for Mohamed's wedding",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ceet bi magoon na",
+      "english": "The wedding was big",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ci xew bi, tuur nañu fa xaalis",
+      "english": "They spent a lot on the party (poured money)",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Cote D'ivoire dëkk bu rafet la",
+      "english": "Cote D'ivoire is a beautiful country",
+      "level": "intermediate",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bari na fa garap / Garap bari na fa",
+      "english": "There are lots of trees there.",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dafa vert",
+      "english": "It is green",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Seeni alloco neex na lool",
+      "english": "Their plantains are super delicious",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Mënn nañu defar alloco bu baax",
+      "english": "They prepare plantains well",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ivoirien yi, aay nañu ci alloco",
+      "english": "Ivoiriens are skilled at making plantains",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bëgg naa Dakar dònte am na embouteillage",
+      "english": "I like Dakar despite the traffic",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Naka waa kër gi?",
+      "english": "How is the family?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ana sa yaay?",
+      "english": "How is your mom?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Nanga fanaanee?",
+      "english": "How was your night?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Jàmm rekk",
+      "english": "It was good / I'm good ('peace only')",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Nangeen yendoo?",
+      "english": "How was your (pl) day?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka liggéey bi?",
+      "english": "How is work?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Mungi dox",
+      "english": "He's walking / It's going well",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mbaa kenn woppul?",
+      "english": "I hope that no one is sick",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Numu demee?",
+      "english": "How is it going?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Nii rekk",
+      "english": "It's fine ('just like this')",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Naka afeer/mbir yi?",
+      "english": "How are things going?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ñungi dox",
+      "english": "They are walking / going well",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Yaangi noos?",
+      "english": "Are you having a good time?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Tuuti rekk",
+      "english": "Just a bit",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Lu bees?",
+      "english": "What's new?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dara beesul",
+      "english": "Nothing is new",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Yaa bees!",
+      "english": "Seeing you is what's new :p",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Nelaw nga bu baax?",
+      "english": "Did you sleep well?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Waaw, nelaw naa bu baax",
+      "english": "Yes, I slept well",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Jàmm nga fanaanee?",
+      "english": "Did you have a good night?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka suba si?",
+      "english": "How is your morning?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Jàmm nga yendoo?",
+      "english": "Did you have a nice day?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka ngoon si?",
+      "english": "How is your afternoon?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Naka tangaay wi?",
+      "english": "How are you doing with the heat?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka seddaay bi?",
+      "english": "How are you doing with the cold?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ba benneen yoon",
+      "english": "See you next time",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ba ci kanam",
+      "english": "See you later",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ba fan yi",
+      "english": "See you one of these days",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ba suba",
+      "english": "See you tomorrow",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ba ngoon",
+      "english": "See you this afternoon",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Yendul ak jàmm",
+      "english": "Have a good day",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Fanaanal ak jàmm",
+      "english": "Have a good night",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dégguma Wolof bu baax",
+      "english": "I don't speak much Wolof",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dégguma li nga wax",
+      "english": "I don't understand what you said",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Maangiy jang Wolof ndank-ndank / tuuti-tuuti",
+      "english": "I'm learning Wolof slowly",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Jërëjëf",
+      "english": "Thank you",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Noo tudd?",
+      "english": "What is your name",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Philip laa tudd",
+      "english": "My name is Philip",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Yow nak?",
+      "english": "And you?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Nan nga sant?",
+      "english": "What is your last name",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Chow laa sant",
+      "english": "My last name is Chow",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Kan mooy sa baay",
+      "english": "Who is your father",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka yaram wi",
+      "english": "How is your health (body)?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "(Kontaan naa / Am naa mbekte) ci (xam / gis) la",
+      "english": "It's good to meet you",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Kii mooy David",
+      "english": "This is David",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "ñaata at nga am?",
+      "english": "How old are you?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Na la yalla aar",
+      "english": "Take care (May god protect you)",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Fan nga joge?",
+      "english": "Where are you from",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "America laa joge",
+      "english": "I am from America",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Sama famie dëkk na California léegi",
+      "english": "My family lives in California now",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Fan nga dëkk?",
+      "english": "Where do you live?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Man jangakat laa",
+      "english": "I am a student",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Moom jangalekat la",
+      "english": "She is a teacher",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Tuuti Wolof rekk laa dégg",
+      "english": "I only speak a little Wolof",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Loo wax? Nga ne?",
+      "english": "What did you say?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Xam/Dëgg naa li nga wax",
+      "english": "I get what you're saying",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Baax na",
+      "english": "It's good (in general)",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Neex na",
+      "english": "It's good (quality)",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Saf na sap",
+      "english": "It tastes tasty",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Amul solo",
+      "english": "You are welcome / no worries",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Baal ma",
+      "english": "I'm sorry",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Fan la ceep nekk?",
+      "english": "Where is the rice?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Dama bëgga sangu",
+      "english": "I would like to bathe",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Nu ñuy waxee / Naka lañuy waxee / Lan mooy _____ ci Wolof?",
+      "english": "How do you say (x2) / What is _____ in Wolof?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "May ma jamm",
+      "english": "Leave me alone ('give me peace')",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Damay dem ekool bi",
+      "english": "I go to school",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Nga nelaw bu baax?",
+      "english": "Did you sleep well?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Kaay fii",
+      "english": "Come here",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Yaangi toog",
+      "english": "Greeting (you are sitting)",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Kaay lekk",
+      "english": "Come eat",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Lii lan la?",
+      "english": "What is tjat?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Lu xew?",
+      "english": "What happened?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Fooy dem?",
+      "english": "Where are you going?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Looy def?",
+      "english": "What are you doing?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Loo bëgg?",
+      "english": "What do you want?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Baayil ma",
+      "english": "Leave me alone",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mey ma ndox",
+      "english": "Could you give me some water",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Doy na",
+      "english": "That's enough",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ma gis",
+      "english": "Let me see",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Danga dof?",
+      "english": "Are you crazy?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Lu la jot?",
+      "english": "What's bothering you?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Lu lay metti?",
+      "english": "What's hurting you?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "sant yalla",
+      "english": "thank God",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Jangal ma ko",
+      "english": "Teach it to me",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Looy liggéey / Luy sa liggéey?",
+      "english": "What is your profession?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ci mbay laay liggeey",
+      "english": "I work in agriculture",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Am nga jëkkër?",
+      "english": "Do you have a husband? / Are you married?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Jërëjëf, kon ba benneen yoon",
+      "english": "Thank you, so see you next time",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Déedéet, amaguma jëkkër",
+      "english": "No, I don't have yet a husband",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Selibateer la",
+      "english": "He's single",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Samay waajur dañu taggoo / tas",
+      "english": "My parents are divorced",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Xanaa bëggoo jëkkër?",
+      "english": "Don't you want a husband?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Duma wolonteeru wérgu yaram",
+      "english": "I'm not a health volunteer",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Dungeen jangalekat, elew ngeen",
+      "english": "Y'all are not teachers, you're students",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ndaw laa",
+      "english": "I'm young",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Faatu, marse lay dem tey",
+      "english": "Faatu is going to the *market* today",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Faatu, kañ ngay dem marse?",
+      "english": "Faatu, when are you going to the market?",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Faatu, tey lay dem marse",
+      "english": "Faatu is going to the market *today*",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Faatu, lan lay def tey? Faatu dafay dem marse tey",
+      "english": "What is Faatu doing today? Faatu is going to the market today",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Kan mooy dem marse tey?",
+      "english": "Who's going to the market today?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Faatu mooy dem marse tey",
+      "english": "*Faatu* is going to the market today",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Amy, naka la sant?",
+      "english": "What is Amy's last name?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Fan ngeen jòge ci Amerik?",
+      "english": "Where are you all from in the U.S.?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Wolonteer yi, lan lañuy liggéey?",
+      "english": "What do the volunteers work on?",
+      "level": "intermediate",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Fan nga dëkk ci Senegal?",
+      "english": "Where do you live in Senegal?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Marse lañuy dem / ñungi dem marse",
+      "english": "We're going to the market",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Amerik ngeen dëkk",
+      "english": "You all live in the US",
+      "level": "beginner",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Làkk ak aada lañuy jangale",
+      "english": "They teach language and culture",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "David saay-saay la",
+      "english": "David is a joker",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Baykat nga",
+      "english": "You are a farmer",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Simon la tudd, tuddul Jo",
+      "english": "His name is Simon, Jo is not his name",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Déedéet, jògewuma Boston, Californi laa jòge",
+      "english": "No, I'm not from Boston, I'm from California",
+      "level": "intermediate",
+      "correctEnToWo": true,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Meetar tissu, ñaata la?",
+      "english": "How much is a meter of fabric?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Ban piis nga bëgg?",
+      "english": "Which piece do you want?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Man, bëgg naa piis bu weex bi nii",
+      "english": "Me, I want this white piece here",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Piis bi, juroomi teemeer lay jàrr",
+      "english": "This piece, it costs 500 CFA",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Juroomi teemeer!? Loolu seer na dé! Wañi ko!",
+      "english": "500!? That's so expensive! Lower it!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Yow bàyyil waxaale bi",
+      "english": "You, leave the discussion",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Lii seerul torop",
+      "english": "This is not very expensive",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waaw, kon baax na",
+      "english": "Yes, so that's good",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Ñaata piis nga bëggoon?",
+      "english": "How many pieces would you like?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bëggoon naa ñaari piis",
+      "english": "I would like two pieces",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Kon ñu def noonu",
+      "english": "So let's do that",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Xaaral, xaaral!",
+      "english": "Wait! Wait!",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": true
+    },
+    {
+      "wolof": "Jëlal sa weccit",
+      "english": "Take your change",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Booy waxtaan ak waakëru sa jabar, lan ngeen di wax ci wolof?",
+      "english": "When you talk with your wife's family, what do you say in Wolof?",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dama dem Senegal ndaxte dafa nàmm sama waakër",
+      "english": "I'm going to Senegal because I miss my family",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Samedi bi nekk, damay faral di dem tennis",
+      "english": "Each Saturday, I usually go to tennis",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Sonn na",
+      "english": "He/she's tired",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Jox ma teere bi",
+      "english": "Give me the book",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Jox ma ko",
+      "english": "Give it to me",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Salaam alekum Fatou! Yeksi nga!",
+      "english": "Hello Fatou! You finally made it!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naka tukki bi dale Dakar?",
+      "english": "How was the journey from Dakar?",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mbaa tukki nga ci jàmm",
+      "english": "I hope that your trip (journey) was good",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waaw! Tukki bi yaggoon na",
+      "english": "Yes! The trip was long",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Tané na waaye jallukaay bi / bato bi dafa bari / bariwoon na nit",
+      "english": "It was okay, but the ferry was very crowded",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waroon nga ñu ko wax",
+      "english": "You should have told us",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mënoon nañu la jëlsi",
+      "english": "We could have picked you up",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Agsil, war nga sonn dé!",
+      "english": "Come inside, you must be tired!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naa la may ndox",
+      "english": "Let me get you some water",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Xaaral ma indil la ndox",
+      "english": "Wait, let me bring you some water",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Baax na! Bëggoon naa gisal sama bopp yoon bi",
+      "english": "It's fine! I wanted to see how it is for myself",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waaw, soxla naa ndox",
+      "english": "Yes, I need some water",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naaj bi metti na torop tey",
+      "english": "The sun was too strong today",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Naac bi tàngoon na téy",
+      "english": "The sun was hot today",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dalal ak jamm Fatou! Yeksi nga!",
+      "english": "Welcome, Fatou! You finally arrived!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Xiif nga?",
+      "english": "Are you hungry?",
+      "level": "beginner",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mën naa la indil loo lekk (lan nga menna lekk).",
+      "english": "I can bring you something to eat",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waaw jërëjef! Nekk fi baax na",
+      "english": "Yes, thank you! It's good to be here",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Xiifaguma, mar naa rekk",
+      "english": "I'm not hungry yet, just thirsty",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Waaye dinaa lekk ci kanam",
+      "english": "But I will eat later",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Baax na. Dinga lekk ba suur fi",
+      "english": "Good. You will eat well here",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Domodo lañu togg tey",
+      "english": "We cooked domoda today",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Beneen yoon, nee nu bu njëkk",
+      "english": "Next time, tell us first",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Beneen yoon, teel ñu ko wax",
+      "english": "Next time, tell us earlier",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dinañu defar ñam bi nga gëna bëgg",
+      "english": "We'll prepare your favorite dish",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Mooy ñamu Gambie bi ma gëna bëgg",
+      "english": "It's my favorite Gambian dish",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dëgg-dëgg / Dëgg la? Kon war naa ko mos!",
+      "english": "Really? Then I must try (taste) it!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Defar attaya bu neex, dafa soxla jot / soxla na temps bu bari",
+      "english": "To make good attaya, it takes time!",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Bayil ma defar lëwël bi",
+      "english": "Let me prepare the first round of attaya",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Dinga ko bëgg / Dina la neex",
+      "english": "You will love it (x2)",
+      "level": "intermediate",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    },
+    {
+      "wolof": "Balaa ngay dem marse bi, ndekkil / lekkal ndekki",
+      "english": "Before you go to the market, eat some breakfast",
+      "level": "advanced",
+      "correctEnToWo": false,
+      "correctWoToEn": false
+    }
+  ]
+}

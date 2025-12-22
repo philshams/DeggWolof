@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(135deg,#373675 0%,#171631 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    color:white;
+}
+.container {max-width:700px;width:100%;}
+.top-bar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.progress {font-size:16px; text-align:right; flex:1;}
+button {
+    padding:8px 14px;
+    font-size:13px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:400;
+    color:white;
+    opacity:0.8;
+    background:#5b6bbf;
+}
+button:hover{opacity:1;}
+button:disabled{opacity:0.3;}
+
+.card-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    height: 350px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    font-weight:600;
+    user-select:none;
+    cursor:pointer;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position:relative;
+}
+
+.card-face {
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    padding:20px;
+}
+
+.card-front {
+    background:rgb(224, 224, 224);
+    color:#000;
+}
+
+.card-back {
+    background: #c9dfe0;
+    color: #000;
+    transform: rotateY(180deg);
+    padding-bottom:80px;
+}
+
+.card-face > div:last-child {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.direction-badge {
+    position:absolute;
+    top:10px;
+    left:10px;
+    padding:6px 12px;
+    background:#667eea;
+    color:white;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.buttons {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 18px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    pointer-events: auto;
+}
+
+.got-btn, .missed-btn {
+    font-size:16px;
+    padding:12px 0;
+    width:120px;
+}
+.got-btn {background:#108c63;}
+.missed-btn {background:#992775;}
+.got-btn:hover, .missed-btn:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+        <div>
+            <button id="loadBtn" onclick="loadVocabulary()">Load Vocabulary</button>
+            <button id="exportBtn" onclick="exportProgress()" disabled>Export</button>
+        </div>
+        <div class="progress" id="progress">Loading...</div>
+    </div>
+    <div id="content"></div>
+</div>
+
+<script>
+let vocabulary = [];
+let wolofQueue = [];
+let englishQueue = [];
+let currentCard = null;
+let showingWolof = true;
+let isFlipped = false;
+let loadedFileHandle = null;
+
+async function autoLoadVocabulary() {
+    try {
+        const response = await fetch('.');
+        const html = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const links = doc.querySelectorAll('a');
+        
+        for (const link of links) {
+            const href = link.getAttribute('href');
+            if (href && href.toLowerCase().includes('wolof') && href.endsWith('.json')) {
+                const fileResponse = await fetch(href);
+                const data = await fileResponse.json();
+                processVocabularyData(data);
+                document.getElementById('progress').textContent = `Mastered: 0 / ${vocabulary.length}`;
+                document.getElementById('exportBtn').disabled = false;
+                renderCard();
+                return;
+            }
+        }
+        document.getElementById('progress').textContent = 'Click "Load Vocabulary" to begin';
+    } catch (error) {
+        document.getElementById('progress').textContent = 'Click "Load Vocabulary" to begin';
+    }
+}
+
+function processVocabularyData(data) {
+    vocabulary = data.vocabulary;
+    
+    wolofQueue = [...vocabulary];
+    englishQueue = [...vocabulary];
+    shuffle(wolofQueue);
+    shuffle(englishQueue);
+}
+
+function loadVocabulary() {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    input.onchange = async e => {
+        const file = input.files[0];
+        if (file) {
+            loadedFileHandle = file;
+            const text = await file.text();
+            const data = JSON.parse(text);
+            processVocabularyData(data);
+            document.getElementById('loadBtn').disabled = true;
+            document.getElementById('exportBtn').disabled = false;
+            renderCard();
+        }
+    };
+    input.click();
+}
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+function updateProgress() {
+    const learned = vocabulary.filter(c => c.correctWoToEn && c.correctEnToWo).length;
+    document.getElementById('progress').textContent = `Mastered: ${learned} / ${vocabulary.length}`;
+}
+
+function getNextCard() {
+    showingWolof = Math.random() < 0.5;
+    let queue = showingWolof ? wolofQueue : englishQueue;
+    if (queue.length === 0) {
+        queue = showingWolof ? englishQueue : wolofQueue;
+        showingWolof = !showingWolof;
+        if (queue.length === 0) return null;
+    }
+    currentCard = queue[0];
+    return currentCard;
+}
+
+function renderCard() {
+    const card = getNextCard();
+    const content = document.getElementById('content');
+    if (!card) {
+        content.innerHTML = `<div style="text-align:center;padding:40px;">
+            <h2>🎉 Congratulations!</h2>
+            <p>All cards mastered!</p>
+        </div>`;
+        return;
+    }
+    const displayText = showingWolof ? card.wolof : card.english;
+    const direction = showingWolof ? "Wolof → English" : "English → Wolof";
+    const levelBadge = card.level ? `<span style="position:absolute;top:10px;right:10px;padding:6px 12px;background:#bcbcbc;color:white;border-radius:20px;font-size:12px;font-weight:600;">${card.level}</span>` : '';
+    content.innerHTML = `<div class="card-container">
+                <div class="card" id="card" onclick="flipCard()">
+                    <div class="card-face card-front">
+                        <div class="direction-badge">${direction}</div>
+                        ${levelBadge}
+                        <div id="cardMain">${displayText}</div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="direction-badge">${direction}</div>
+                        ${levelBadge}
+                        <div id="cardBack">${showingWolof ? card.english : card.wolof}</div>
+                        <div class="buttons">
+                            <button class="got-btn" onclick="event.stopPropagation(); markCorrect()">Got it</button>
+                            <button class="missed-btn" onclick="event.stopPropagation(); markWrong()">Missed it</button>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+    isFlipped = false;
+    updateProgress();
+}
+
+function flipCard() {
+    const cardDiv = document.getElementById('card');
+    cardDiv.style.transform = isFlipped ? "rotateY(0deg)" : "rotateY(180deg)";
+    isFlipped = !isFlipped;
+}
+
+function markCorrect() {
+    if (showingWolof) currentCard.correctWoToEn = true;
+    else currentCard.correctEnToWo = true;
+    if (showingWolof) { wolofQueue.push(wolofQueue.shift()); } else { englishQueue.push(englishQueue.shift()); }
+    renderCard();
+}
+
+function markWrong() {
+    currentCard.correctWoToEn = false;
+    currentCard.correctEnToWo = false;
+    if (showingWolof) { wolofQueue.push(wolofQueue.shift()); } else { englishQueue.push(englishQueue.shift()); }
+    renderCard();
+}
+
+async function exportProgress() {
+    const data = {
+        vocabulary: vocabulary,
+    };
+    
+    if (window.showSaveFilePicker) {
+        try {
+            const handle = await window.showSaveFilePicker({
+                types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
+                suggestedName: loadedFileHandle ? loadedFileHandle.name : 'wolof_vocabulary.json'
+            });
+            const writable = await handle.createWritable();
+            await writable.write(JSON.stringify(data, null, 2));
+            await writable.close();
+        } catch (e) { console.log('Export cancelled'); }
+    } else {
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = loadedFileHandle ? loadedFileHandle.name : 'wolof_vocabulary.json';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+}
+
+autoLoadVocabulary();
+</script>
+</body>
+</html>
