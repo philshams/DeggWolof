@@ -5,35 +5,35 @@
       "english": "I have a lesson each week with a Wolof teacher",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Maangi tane ci wolof tuuti-tuuti / ndank-ndank",
       "english": "I'm gradually getting better at Wolof",
       "level": "intermediate",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Sama wolof, mu ngi tane",
       "english": "My wolof is getting better",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Economie bi tane na",
       "english": "The economy has improved",
       "level": "intermediate",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Degg naa li nga wax wante am naa (ay) jafe-jafe tontu ci wolof",
       "english": "I understand what you're saying but I have difficulty responding in wolof",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Jot naa dem Senegal ñetti yoon",
@@ -47,7 +47,7 @@
       "english": "This is my fourth time visiting Senegal",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Maa ngi doora / soga mos mbaxal",
@@ -61,7 +61,7 @@
       "english": "The first time I went to Senegal, I wasn't married yet",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "ñungiwoon Cote D'Ivoire semaine bi paase ngir takku mohamed",
@@ -75,7 +75,7 @@
       "english": "The wedding was big",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ci xew bi, tuur nañu fa xaalis",
@@ -88,7 +88,7 @@
       "wolof": "Cote D'ivoire dëkk bu rafet la",
       "english": "Cote D'ivoire is a beautiful country",
       "level": "intermediate",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -102,22 +102,22 @@
       "wolof": "Dafa vert",
       "english": "It is green",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Seeni alloco neex na lool",
       "english": "Their plantains are super delicious",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Mënn nañu defar alloco bu baax",
       "english": "They prepare plantains well",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ivoirien yi, aay nañu ci alloco",
@@ -131,14 +131,14 @@
       "english": "I like Dakar despite the traffic",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Naka waa kër gi?",
       "english": "How is the family?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ana sa yaay?",
@@ -152,14 +152,14 @@
       "english": "How was your night?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Jàmm rekk",
       "english": "It was good / I'm good ('peace only')",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Nangeen yendoo?",
@@ -173,7 +173,7 @@
       "english": "How is work?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Mungi dox",
@@ -187,7 +187,7 @@
       "english": "I hope that no one is sick",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Numu demee?",
@@ -200,22 +200,22 @@
       "wolof": "Nii rekk",
       "english": "It's fine ('just like this')",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Naka afeer/mbir yi?",
       "english": "How are things going?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ñungi dox",
       "english": "They are walking / going well",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Yaangi noos?",
@@ -228,7 +228,7 @@
       "wolof": "Tuuti rekk",
       "english": "Just a bit",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -243,28 +243,28 @@
       "english": "Nothing is new",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Yaa bees!",
       "english": "Seeing you is what's new :p",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Nelaw nga bu baax?",
       "english": "Did you sleep well?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Waaw, nelaw naa bu baax",
       "english": "Yes, I slept well",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Jàmm nga fanaanee?",
@@ -278,7 +278,7 @@
       "english": "How is your morning?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Jàmm nga yendoo?",
@@ -292,7 +292,7 @@
       "english": "How is your afternoon?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Naka tangaay wi?",
@@ -320,13 +320,13 @@
       "english": "See you later",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ba fan yi",
       "english": "See you one of these days",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -334,14 +334,14 @@
       "english": "See you tomorrow",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ba ngoon",
       "english": "See you this afternoon",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Yendul ak jàmm",
@@ -383,35 +383,35 @@
       "english": "Thank you",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Noo tudd?",
       "english": "What is your name",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Philip laa tudd",
       "english": "My name is Philip",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Yow nak?",
       "english": "And you?",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Nan nga sant?",
       "english": "What is your last name",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Chow laa sant",
@@ -424,7 +424,7 @@
       "wolof": "Kan mooy sa baay",
       "english": "Who is your father",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -439,7 +439,7 @@
       "english": "It's good to meet you",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Kii mooy David",
@@ -452,21 +452,21 @@
       "wolof": "ñaata at nga am?",
       "english": "How old are you?",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Na la yalla aar",
       "english": "Take care (May god protect you)",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Fan nga joge?",
       "english": "Where are you from",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -474,14 +474,14 @@
       "english": "I am from America",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Sama famie dëkk na California léegi",
       "english": "My family lives in California now",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Fan nga dëkk?",
@@ -495,7 +495,7 @@
       "english": "I am a student",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Moom jangalekat la",
@@ -509,7 +509,7 @@
       "english": "I only speak a little Wolof",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Loo wax? Nga ne?",
@@ -536,14 +536,14 @@
       "wolof": "Neex na",
       "english": "It's good (quality)",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Saf na sap",
       "english": "It tastes tasty",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -558,14 +558,14 @@
       "english": "I'm sorry",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Fan la ceep nekk?",
       "english": "Where is the rice?",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Dama bëgga sangu",
@@ -600,28 +600,28 @@
       "english": "Did you sleep well?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Kaay fii",
       "english": "Come here",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Yaangi toog",
       "english": "Greeting (you are sitting)",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Kaay lekk",
       "english": "Come eat",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Lii lan la?",
@@ -634,43 +634,43 @@
       "wolof": "Lu xew?",
       "english": "What happened?",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Fooy dem?",
       "english": "Where are you going?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Looy def?",
       "english": "What are you doing?",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Loo bëgg?",
       "english": "What do you want?",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Baayil ma",
       "english": "Leave me alone",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Mey ma ndox",
       "english": "Could you give me some water",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Doy na",
@@ -690,8 +690,8 @@
       "wolof": "Danga dof?",
       "english": "Are you crazy?",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Lu la jot?",
@@ -711,14 +711,14 @@
       "wolof": "sant yalla",
       "english": "thank God",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Jangal ma ko",
       "english": "Teach it to me",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -739,15 +739,15 @@
       "wolof": "Am nga jëkkër?",
       "english": "Do you have a husband? / Are you married?",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Jërëjëf, kon ba benneen yoon",
       "english": "Thank you, so see you next time",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Déedéet, amaguma jëkkër",
@@ -774,7 +774,7 @@
       "wolof": "Xanaa bëggoo jëkkër?",
       "english": "Don't you want a husband?",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -782,14 +782,14 @@
       "english": "I'm not a health volunteer",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Dungeen jangalekat, elew ngeen",
       "english": "Y'all are not teachers, you're students",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ndaw laa",
@@ -809,7 +809,7 @@
       "wolof": "Faatu, kañ ngay dem marse?",
       "english": "Faatu, when are you going to the market?",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
@@ -831,7 +831,7 @@
       "english": "Who's going to the market today?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Faatu mooy dem marse tey",
@@ -852,35 +852,35 @@
       "english": "Where are you all from in the U.S.?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Wolonteer yi, lan lañuy liggéey?",
       "english": "What do the volunteers work on?",
       "level": "intermediate",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Fan nga dëkk ci Senegal?",
       "english": "Where do you live in Senegal?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Marse lañuy dem / ñungi dem marse",
       "english": "We're going to the market",
       "level": "beginner",
-      "correctEnToWo": true,
+      "correctEnToWo": false,
       "correctWoToEn": false
     },
     {
       "wolof": "Amerik ngeen dëkk",
       "english": "You all live in the US",
       "level": "beginner",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Làkk ak aada lañuy jangale",
@@ -894,7 +894,7 @@
       "english": "David is a joker",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Baykat nga",
@@ -914,22 +914,22 @@
       "wolof": "Déedéet, jògewuma Boston, Californi laa jòge",
       "english": "No, I'm not from Boston, I'm from California",
       "level": "intermediate",
-      "correctEnToWo": true,
-      "correctWoToEn": true
+      "correctEnToWo": false,
+      "correctWoToEn": false
     },
     {
       "wolof": "Meetar tissu, ñaata la?",
       "english": "How much is a meter of fabric?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Ban piis nga bëgg?",
       "english": "Which piece do you want?",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Man, bëgg naa piis bu weex bi nii",
@@ -985,21 +985,21 @@
       "english": "I would like two pieces",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Kon ñu def noonu",
       "english": "So let's do that",
       "level": "intermediate",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Xaaral, xaaral!",
       "english": "Wait! Wait!",
       "level": "beginner",
       "correctEnToWo": false,
-      "correctWoToEn": true
+      "correctWoToEn": false
     },
     {
       "wolof": "Jëlal sa weccit",
