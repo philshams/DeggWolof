@@ -4,12 +4,8 @@ A simple web-based flashcard tool for practicing Wolof ↔ English vocabulary.
 
 ## How to use
 
-1. Open the site:
-
-   ```
-   https://philshams.github.io/DeggWolof/
-   ```
-2. Click **Load Vocabulary** to select the wolof_vocab.json file.
+1. Open the site https://philshams.github.io/DeggWolof/
+2. Click **Download flashcards** if you are a first-time user or **Import flashcards** if you already saved your progress.
 3. Click a card to flip it.
 4. Mark **Got it** or **Missed it**.
 5. Before closing out your study sesh, use **Export** to download your updated vocabulary with progress saved to your computer.
