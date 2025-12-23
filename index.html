@@ -167,9 +167,9 @@ button:disabled{opacity:0.3;}
 .got-btn:hover, .missed-btn:hover{transform:scale(1.05);}
 
 .save-reminder {
-    position: fixed;
-    top: 80px;
-    right: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
     background: #667eea;
     color: white;
     padding: 15px 20px;
@@ -183,11 +183,11 @@ button:disabled{opacity:0.3;}
 
 @keyframes slideIn {
     from {
-        transform: translateX(100%);
+        transform: translateY(-20px);
         opacity: 0;
     }
     to {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
 }
