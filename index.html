@@ -41,6 +41,40 @@ button {
 button:hover{opacity:1;}
 button:disabled{opacity:0.3;}
 
+.welcome-screen {
+    text-align:center;
+    padding:40px 20px;
+    max-width:500px;
+    margin:0 auto;
+}
+.welcome-screen h1 {
+    font-size:32px;
+    margin-bottom:20px;
+}
+.welcome-screen p {
+    font-size:16px;
+    margin-bottom:30px;
+    opacity:0.9;
+}
+.welcome-buttons {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    max-width:375px;
+    margin:0 auto;
+}
+.welcome-buttons button {
+    padding:15px 20px;
+    font-size:18px;
+    width:100%;
+}
+.primary-btn {
+    background:#10888c;
+}
+.secondary-btn {
+    background:#5c76eb;
+}
+
 .card-container {
     width: 100%;
     max-width: 600px;
@@ -134,14 +168,22 @@ button:disabled{opacity:0.3;}
 </head>
 <body>
 <div class="container">
-    <div class="top-bar">
+    <div class="top-bar" id="topBar" style="display:none;">
         <div>
-            <button id="loadBtn" onclick="loadVocabulary()">Load Vocabulary</button>
-            <button id="exportBtn" onclick="exportProgress()" disabled>Export</button>
+            <button id="exportBtn" onclick="exportProgress()">Save Progress</button>
         </div>
-        <div class="progress" id="progress">Loading...</div>
+        <div class="progress" id="progress">Mastered: 0 / 0</div>
     </div>
-    <div id="content"></div>
+    <div id="content">
+        <div class="welcome-screen">
+            <h1>Dégg Wolof</h1>
+            <p>Learn Wolof and track your progress with...flashcards!</p>
+            <div class="welcome-buttons">
+                <button class="secondary-btn" onclick="continueLearning()">Import flashcards - continue learning</button>
+                <button class="primary-btn" onclick="firstTimeUser()">Download flashcards - first-time user</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -153,42 +195,35 @@ let showingWolof = true;
 let isFlipped = false;
 let loadedFileHandle = null;
 
-async function autoLoadVocabulary() {
+async function firstTimeUser() {
     try {
-        const response = await fetch('.');
-        const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const links = doc.querySelectorAll('a');
+        const response = await fetch('wolof_vocab.json');
+        const data = await response.json();
         
-        for (const link of links) {
-            const href = link.getAttribute('href');
-            if (href && href.toLowerCase().includes('wolof') && href.endsWith('.json')) {
-                const fileResponse = await fetch(href);
-                const data = await fileResponse.json();
-                processVocabularyData(data);
-                document.getElementById('progress').textContent = `Mastered: 0 / ${vocabulary.length}`;
-                document.getElementById('exportBtn').disabled = false;
-                renderCard();
-                return;
-            }
-        }
-        document.getElementById('progress').textContent = 'Click "Load Vocabulary" to begin';
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'wolof_vocab.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        
+        document.getElementById('content').innerHTML = `
+            <div class="welcome-screen">
+                <h1>✅ Downloaded!</h1>
+                <p>Your vocabulary file has been downloaded. Keep this file safe - it will track your progress.</p>
+                <p style="margin-top:20px;">When you're ready to start learning, click the button below and select the file you just downloaded.</p>
+                <div class="welcome-buttons">
+                    <button class="primary-btn" onclick="continueLearning()">Start learning</button>
+                </div>
+            </div>
+        `;
     } catch (error) {
-        document.getElementById('progress').textContent = 'Click "Load Vocabulary" to begin';
+        alert('Please download the raw file from https://github.com/philshams/DeggWolof/blob/main/wolof_vocab.json');
     }
 }
 
-function processVocabularyData(data) {
-    vocabulary = data.vocabulary;
-    
-    wolofQueue = [...vocabulary];
-    englishQueue = [...vocabulary];
-    shuffle(wolofQueue);
-    shuffle(englishQueue);
-}
-
-function loadVocabulary() {
+function continueLearning() {
     const input = document.createElement('input');
     input.type = 'file';
     input.accept = '.json';
@@ -199,12 +234,20 @@ function loadVocabulary() {
             const text = await file.text();
             const data = JSON.parse(text);
             processVocabularyData(data);
-            document.getElementById('loadBtn').disabled = true;
-            document.getElementById('exportBtn').disabled = false;
+            document.getElementById('topBar').style.display = 'flex';
             renderCard();
         }
     };
     input.click();
+}
+
+function processVocabularyData(data) {
+    vocabulary = data.vocabulary;
+    
+    wolofQueue = [...vocabulary];
+    englishQueue = [...vocabulary];
+    shuffle(wolofQueue);
+    shuffle(englishQueue);
 }
 
 function shuffle(array) {
@@ -238,12 +281,13 @@ function renderCard() {
         content.innerHTML = `<div style="text-align:center;padding:40px;">
             <h2>🎉 Congratulations!</h2>
             <p>All cards mastered!</p>
+            <button onclick="exportProgress()" style="margin-top:20px;padding:12px 24px;font-size:16px;">Save Progress</button>
         </div>`;
         return;
     }
     const displayText = showingWolof ? card.wolof : card.english;
     const direction = showingWolof ? "Wolof → English" : "English → Wolof";
-    const levelBadge = card.level ? `<span style="position:absolute;top:10px;right:10px;padding:6px 12px;background:#bcbcbc;color:white;border-radius:20px;font-size:12px;font-weight:600;">${card.level}</span>` : '';
+    const levelBadge = card.level ? `<span style="position:absolute;top:10px;right:10px;padding:6px 12px;background:#9ca3af;color:white;border-radius:20px;font-size:12px;font-weight:600;">${card.level}</span>` : '';
     content.innerHTML = `<div class="card-container">
                 <div class="card" id="card" onclick="flipCard()">
                     <div class="card-face card-front">
@@ -288,31 +332,38 @@ function markWrong() {
 
 async function exportProgress() {
     const data = {
-        vocabulary: vocabulary,
+        vocabulary: vocabulary
     };
     
     if (window.showSaveFilePicker) {
         try {
-            const handle = await window.showSaveFilePicker({
-                types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
-                suggestedName: loadedFileHandle ? loadedFileHandle.name : 'wolof_vocabulary.json'
-            });
+            const options = {
+                types: [{
+                    description: 'JSON Files',
+                    accept: { 'application/json': ['.json'] }
+                }],
+                suggestedName: loadedFileHandle ? loadedFileHandle.name : 'wolof_vocab.json'
+            };
+            const handle = await window.showSaveFilePicker(options);
             const writable = await handle.createWritable();
             await writable.write(JSON.stringify(data, null, 2));
             await writable.close();
-        } catch (e) { console.log('Export cancelled'); }
+            alert('Progress saved successfully!');
+        } catch (err) {
+            if (err.name !== 'AbortError') {
+                console.error('Save failed:', err);
+            }
+        }
     } else {
         const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = loadedFileHandle ? loadedFileHandle.name : 'wolof_vocabulary.json';
+        a.download = loadedFileHandle ? loadedFileHandle.name : 'wolof_vocab.json';
         a.click();
         URL.revokeObjectURL(url);
     }
 }
-
-autoLoadVocabulary();
 </script>
 </body>
 </html>
